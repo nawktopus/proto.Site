@@ -1,6 +1,6 @@
 # Render and props
 
-<!-- function Welcome(props) {  
+ `function Welcome(props) {  
 	return <h1>Hello, {props.name}</h1>;
 }
 
@@ -12,11 +12,11 @@ root creates document
 root.render passes element to Welcome function 
 Welcome function passes name="Sara" as a prop 
 Welcome function returns <h1> Hello, {props.name} </h1>; // props.name is important to be able to read the variable or the value of the variable 
-displays Hello, Sara -->
+displays Hello, Sara`
 
 ## Plain template of what a react file should look like
 
-<!-- import React from 'react';
+ `import React from 'react';
 
 class App extends React.Component {
 	render() {
@@ -25,4 +25,4 @@ class App extends React.Component {
 	}
 }
 
-export default App; // used to pass component to other component   -->
+export default App; // used to pass component to other component`
